@@ -1,0 +1,61 @@
+<project name="sample" default="compile" basedir=".">
+   <property name='ant.version' value='ant.version'/>
+   <target name="init" depends="clean">
+      <mkdir dir="classes"/>
+   </target>
+  <target name="compile" depends="init">
+      <javac srcdir="src" destdir="classes"/>
+   </target>
+   <target name="clean">
+    <delete dir="classes"/>
+   </target>
+   <echo> ${ant.version}</echo>
+</project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
