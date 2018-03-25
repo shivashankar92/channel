@@ -1,4 +1,4 @@
-<project name="sample" default="compile" basedir=".">
+<project name="sample" default="war" basedir=".">
    <property name='ant.version' value='ant.version'/>
    <target name="init" depends="clean">
       <mkdir dir="classes"/>
